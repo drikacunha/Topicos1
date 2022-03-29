@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    internal class Celular
+    internal class Nokia
     {
     }
 }
