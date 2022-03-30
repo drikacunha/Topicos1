@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    public class Fabrica
+    internal class MarcaCelular
     {
-        public String bateria;
-        public String camera;
-        public String gps;
-        public String visor;
     }
 }
