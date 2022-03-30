@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    internal class Peças
+    public class Peças : Celular
     {
+        public Peças(string fabrica) : base ()
+        {
+            Descricao = " Marca do Celular " + fabrica;
+        }
+        public Peças(string fabrica, TipoCelular tipoCelular, TipoBateria tipoBateria, TipoCamera tipoCamera, TipoGps tipoGps, TipoVisor tipoVisor)
+        {
+            Descricao = "Marca do Celular" + fabrica;          
+        }
     }
 }

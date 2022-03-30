@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    internal class MarcaCelular
+    public enum MarcaCelular
     {
+        Apple = 1,
+        Motorola = 2,
+        Nokia = 3,
     }
 }
