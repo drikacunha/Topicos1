@@ -1,13 +1,20 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
+using Ex2;
+
 Console.WriteLine("Hello, World!");
 
 
 CelularFactory factory;
 
-factory = new ();
+factory = new Nokia();
+factory = new Motorola();
+factory = new Apple();
 
- = factory.CreateCelular(TipoCelular.Basico);
+Celular celular = factory.CreateCelular(TipoCelular.Fabrica);
 
-factory.MontarCelular(TipoCelular.Basico);
+factory.MontarCelular(TipoCelular.Fabrica);
 
-factory = new ();
+factory = new Nokia();
+factory = new Motorola();
+factory = new Apple();

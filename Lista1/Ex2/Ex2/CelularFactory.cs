@@ -22,5 +22,6 @@ namespace Ex2
         }
 
         public abstract Celular CreateCelular(TipoCelular tipoCelular);
+
     }
 }

@@ -8,7 +8,7 @@ namespace Ex2
 {
     public class Peças : Celular
     {
-        public Peças(string fabrica) : base ()
+        public Peças(string fabrica) : base()
         {
             Descricao = " Marca do Celular " + fabrica;
         }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Ex2
+﻿namespace Ex2
 {
     public class Nokia : CelularFactory
     {
@@ -14,8 +8,10 @@ namespace Ex2
             if (tipoCelular == tipoCelular.Celular)
             {
 
-                celular = new Celular("Nokia",tipoCelular.Nokia, tipoBateria.Nokia );
+                celular = new Peças("Nokia", TipoBateria.Nokia, TipoCamera.Nokia, TipoGps.Nokia, TipoVisor.Nokia);
             }
+
+            return celular;
         }
     }
 }
