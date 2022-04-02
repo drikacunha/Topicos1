@@ -5,6 +5,8 @@
         public Motorola()
         {
             Bateria = new BateriaMotorola();
+            Camera = new CameraMotorola();
+            Gps = new GpsMotorola();
         }
     }
 }

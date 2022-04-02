@@ -1,18 +1,14 @@
 ﻿namespace Ex2
 {
-    public class Nokia : CelularFactory
+    public class Nokia : Celular
     {
-
-        public override Celular CreateCelular(TipoCelular tipoCelular)
+        public Nokia()
         {
-            Celular celular = null;
-            if (tipoCelular == tipoCelular.Celular)
-            {
+            Bateria = new BateriaNokia();
+            Camera = new CameraNokia();
+            Gps = new GpsMotorola();
 
-                celular = new Peças("Nokia", TipoBateria.Nokia, TipoCamera.Nokia, TipoGps.Nokia, TipoVisor.Nokia);
-            }
-
-            return celular;
         }
+        
     }
 }

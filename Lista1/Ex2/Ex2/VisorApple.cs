@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    internal class GpsMotorola : TipoGps
+    internal class VisorApple : TipoVisor
     {
-        public GpsMotorola()
+        public VisorApple()
         {
-            Descricao = "Gps Motorola";
+            Descricao = "Visor Apple";
         }
     }
 }
