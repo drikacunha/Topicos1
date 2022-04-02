@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    public enum MarcaCelular
+    public class CameraApple : TipoCamera
     {
-        Apple = 1,
-        Motorola = 2,
-        Nokia = 3,
+        public CameraApple()
+        {
+            Descricao = "Camera Apple";
+        }
     }
 }

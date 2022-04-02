@@ -2,5 +2,6 @@
 {
     public class TipoCamera
     {
+        public string Descricao { get; set; }
     }
 }

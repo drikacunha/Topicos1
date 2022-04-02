@@ -2,5 +2,6 @@
 {
     public class TipoBateria
     {
+        public string Descricao { get; set; }
     }
 }

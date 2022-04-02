@@ -2,6 +2,6 @@
 {
     public class TipoCelular
     {
-        public TipoCelular Celular { get; internal set; }
+        public string Descricao { get; set; }
     }
 }

@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    internal class Apple : CelularFactory
+    public class BateriaNokia: TipoBateria
     {
-
+        public BateriaNokia()
+        {
+            Descricao = "Bateria da Nokia";
+        }
     }
 }

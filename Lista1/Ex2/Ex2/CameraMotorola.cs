@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    internal class Apple : CelularFactory
+    public class CameraMotorola : TipoCamera
     {
-
+        public CameraMotorola()
+        {
+            Descricao = "Camera Motorola";
+        }
     }
 }

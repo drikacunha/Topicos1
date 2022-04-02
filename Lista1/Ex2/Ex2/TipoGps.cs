@@ -2,5 +2,6 @@
 {
     public class TipoGps
     {
+        public string Descricao { get; set; }
     }
 }
