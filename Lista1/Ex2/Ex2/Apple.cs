@@ -1,13 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Ex2
-{
-    internal class Apple : CelularFactory
+﻿namespace Ex2
     {
+        public class Apple : Celular
+        {
+            public Apple()
+         {
+            Bateria = new BateriaApple();
+            Camera = new CameraApple();
+            Gps = new GpsApple();
+            Visor = new VisorApple();
+        }
 
     }
 }
+

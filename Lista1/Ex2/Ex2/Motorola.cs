@@ -7,8 +7,7 @@
             Bateria = new BateriaMotorola();
             Camera = new CameraMotorola();
             Gps = new GpsMotorola();
-
-            //tex.tex.tex
+            Visor = new VisorMotorola();
         }
     }
 }
