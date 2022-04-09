@@ -1,20 +1,30 @@
 ﻿namespace Ex3
-{ 
-
 {
-        static void Main(string[] args)
+    public class Program
     {
-        // Colocando em prática
-        Sonteio _cadeira1 = Sorteio.Instance;
-        _cadeira1.Quantidade = 1;
+        public static void Main(string[] args)
+        {
+            RandomNumberGenerato b1 =  RandomNumberGenerato.GetRandomNumberGenerato();
+            RandomNumberGenerato b2 =  RandomNumberGenerato.GetRandomNumberGenerato();
+            RandomNumberGenerato b3 =  RandomNumberGenerato.GetRandomNumberGenerato();
+            RandomNumberGenerato b4 =  RandomNumberGenerato.GetRandomNumberGenerato();
 
-        Cadeira _cadeira2 = Sorteio.Instance;
-        _cadeira2.Quantidade = 5;
+            if (b1 == b2 && b2 == b3 && b3 == b4)
+            {
 
-        Console.WriteLine(_cadeira1.Quantidade.ToString());
-        Console.WriteLine(_cadeira2.Quantidade.ToString());
-        Console.ReadLine();
+                Console.WriteLine(" Sortei dos Jogos do Cassino sao: \n");
+            }
+
+            RandomNumberGenerato balancer = RandomNumberGenerato.GetRandomNumberGenerato();
+            for (int i = 0; i < 15; i++)
+            {
+                string jogos = balancer.Jogos;
+                Console.WriteLine("Jogo:" + jogos);
+            }
+
+            Console.ReadKey();
+
+        }
     }
 }
-
 

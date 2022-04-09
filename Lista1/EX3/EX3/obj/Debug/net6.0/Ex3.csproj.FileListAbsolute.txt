@@ -3,3 +3,13 @@ C:\Users\adrie\Desktop\Topicos1\Lista1\EX3\Ex3\obj\Debug\net6.0\Ex3.GeneratedMSB
 C:\Users\adrie\Desktop\Topicos1\Lista1\EX3\Ex3\obj\Debug\net6.0\Ex3.AssemblyInfoInputs.cache
 C:\Users\adrie\Desktop\Topicos1\Lista1\EX3\Ex3\obj\Debug\net6.0\Ex3.AssemblyInfo.cs
 C:\Users\adrie\Desktop\Topicos1\Lista1\EX3\Ex3\obj\Debug\net6.0\Ex3.csproj.CoreCompileInputs.cache
+C:\Users\adrie\Desktop\Topicos1\Lista1\EX3\Ex3\bin\Debug\net6.0\Ex3.exe
+C:\Users\adrie\Desktop\Topicos1\Lista1\EX3\Ex3\bin\Debug\net6.0\Ex3.deps.json
+C:\Users\adrie\Desktop\Topicos1\Lista1\EX3\Ex3\bin\Debug\net6.0\Ex3.runtimeconfig.json
+C:\Users\adrie\Desktop\Topicos1\Lista1\EX3\Ex3\bin\Debug\net6.0\Ex3.dll
+C:\Users\adrie\Desktop\Topicos1\Lista1\EX3\Ex3\bin\Debug\net6.0\Ex3.pdb
+C:\Users\adrie\Desktop\Topicos1\Lista1\EX3\Ex3\obj\Debug\net6.0\Ex3.dll
+C:\Users\adrie\Desktop\Topicos1\Lista1\EX3\Ex3\obj\Debug\net6.0\refint\Ex3.dll
+C:\Users\adrie\Desktop\Topicos1\Lista1\EX3\Ex3\obj\Debug\net6.0\Ex3.pdb
+C:\Users\adrie\Desktop\Topicos1\Lista1\EX3\Ex3\obj\Debug\net6.0\Ex3.genruntimeconfig.cache
+C:\Users\adrie\Desktop\Topicos1\Lista1\EX3\Ex3\obj\Debug\net6.0\ref\Ex3.dll
