@@ -10,7 +10,7 @@ namespace Ex2
     {
         public VisorNokia()
         {
-            Descricao = "Visor Apple";
+            Descricao = "Visor Nokia";
         }
     }
 }

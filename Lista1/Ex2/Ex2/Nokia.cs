@@ -4,10 +4,11 @@
     {
         public Nokia()
         {
-            Bateria = new BateriaMotorola();
-            Camera = new CameraMotorola();
-            Gps = new GpsMotorola();
-            Visor = new VisorMotorola();
+            Descricao = "NOKIA";
+            Bateria = new BateriaNokia();
+            Camera = new CameraNokia();
+            Gps = new GpsNokia();
+            Visor = new VisorNokia();
 
         }
         

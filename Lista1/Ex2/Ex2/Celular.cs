@@ -23,5 +23,10 @@
         {
             return "Montar Celular";
         }
+
+        public override string ToString()
+        {
+            return $"{Descricao}: {Bateria}, {Camera}, {Gps}, {Visor}";
+        }
     }
 }
