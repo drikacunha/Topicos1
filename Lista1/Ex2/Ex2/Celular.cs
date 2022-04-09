@@ -19,11 +19,6 @@
             Gps = tipoGps;
             Visor = tipoVisor;
         }
-        public string MontarCelular()
-        {
-            return "Montar Celular";
-        }
-
         public override string ToString()
         {
             return $"{Descricao}: {Bateria}, {Camera}, {Gps}, {Visor}";
