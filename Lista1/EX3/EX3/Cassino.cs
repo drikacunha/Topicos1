@@ -9,7 +9,13 @@ namespace Ex3
     public sealed class Cassino
     {
         private static readonly Cassino instace = new Cassino();
-        public int Sorteio { get; set; }
+        
+        public string Descricao { get; set; }
+        public TipoRoleta Roleta { get; set; }
+        public TipoBlackJack BlackJack { get; set; }
+        public TipoPôquer Pôquer { get; set; }
+
+
         private Cassino() { }
         public static Cassino Instance
         {
