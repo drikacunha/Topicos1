@@ -4,6 +4,7 @@
         {
             public Apple()
          {
+            Descricao = "APPLE";
             Bateria = new BateriaApple();
             Camera = new CameraApple();
             Gps = new GpsApple();

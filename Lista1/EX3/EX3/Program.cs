@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Ex3
+{ 
+
+
+class Program
+{
+
+    Console.WriteLine("Hello, World!");
+
+
