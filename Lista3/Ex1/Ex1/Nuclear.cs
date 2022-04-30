@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Ex1
 {
-    internal class Nuclear
+     public class Nuclear
     {
+        Tipo_
     }
 }

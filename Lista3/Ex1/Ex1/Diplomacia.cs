@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Ex1
 {
-    internal class Diplomacia
-    {
+    public class Diplomacia : Inimigo{
+        public Dictionary()
+        {
+            Tipo_nuclear = new Nuclear();
+            Tipo_
+        }
+
     }
 }

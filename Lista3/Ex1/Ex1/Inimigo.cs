@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace Ex1
 {
-    internal class Inimigo
+    public class Inimigo
     {
-    }
+        Nuclear Tipo_guerra;
+        GrandeExercito Tipo_exercito;
+        Fragil Tipo_fragil;
+
+        public void executarNuclear() {
+            Tipo_guerra = new Nuclear();
+            Tipo_exercito = new GrandeExercito();
+            Tipo_fragil = new Fragil();
+         }
+
+        public void executarTipo() {
+
+
 }

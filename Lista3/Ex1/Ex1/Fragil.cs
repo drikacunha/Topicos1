@@ -8,5 +8,6 @@ namespace Ex1
 {
     internal class Fragil
     {
+
     }
 }
