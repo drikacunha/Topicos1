@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex1
 {
-    public class AtacarSozinho : Inimigo
+    internal class AtacarSozinho
     {
 
     }

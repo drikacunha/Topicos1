@@ -14,10 +14,30 @@ namespace Ex1
             iniciarPeloSul();
         }
 
+        private void iniciarPeloSul()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void iniciarPeloNorte()
+        {
+            throw new NotImplementedException();
+        }
+
         public void concluir()
         {
             dividirBeneficios();
             dividirReconstruçao();
+        }
+
+        private void dividirReconstruçao()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void dividirBeneficios()
+        {
+            throw new NotImplementedException();
         }
     }
 }

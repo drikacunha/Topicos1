@@ -9,6 +9,7 @@ namespace Ex1
     public class Inimigo 
     {
         Estrategia acao;
+
         public void definirEstrategia()
         {
             if (inimigo.exercito() > 10000)

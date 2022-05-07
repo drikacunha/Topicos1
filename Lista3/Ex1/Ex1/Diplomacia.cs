@@ -6,12 +6,32 @@ using System.Threading.Tasks;
 
 namespace Ex1
 {
-    public class Diplomacia : Inimigo{
-        public Dictionary()
+    public class Diplomacia : Estrategia
+    {
+        public void atacar()
         {
-            Tipo_nuclear = new Nuclear();
-            Tipo_
+            recuarTropas();
+            proporCooperaçao();
         }
 
+        private void proporCooperaçao()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void recuarTropas()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void concluir()
+        {
+            desarmarInimigo();
+        }
+
+        private void desarmarInimigo()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
