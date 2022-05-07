@@ -33,5 +33,10 @@ namespace Ex1
         {
             throw new NotImplementedException();
         }
+
+        public void iniciar()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

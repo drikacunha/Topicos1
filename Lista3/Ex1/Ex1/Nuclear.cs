@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex1
 {
-     public class Nuclear : Diplomacia
+     public class Nuclear : Inimigo
     {
     }
 }
