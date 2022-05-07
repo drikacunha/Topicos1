@@ -6,19 +6,35 @@ using System.Threading.Tasks;
 
 namespace Ex1
 {
-    public class Inimigo
+    public class Inimigo 
     {
-        Nuclear Tipo_guerra;
-        GrandeExercito Tipo_exercito;
-        Fragil Tipo_fragil;
+        Estrategia acao;
+        public void definirEstrategia()
+        {
+            if (inimigo.exercito() > 10000)
+            {
+                acao = new AliançaVizinho();
 
-        public void executarNuclear() {
-            Tipo_guerra = new Nuclear();
-            Tipo_exercito = new GrandeExercito();
-            Tipo_fragil = new Fragil();
-         }
+            }
+            else if (inimigo.Nuclear())
+            {
+                acao = new Diplomacia();
 
-        public void executarTipo() {
+            }
+            else if (inimigo.Fragil())
+            {
+                acao = new AtacarSozinho();
+            }
+        }
 
+        public void iniciarGuerra()
+        {
+            acao.iniciar();
+        }
 
-}
+        public void encerrarGuerra()
+        {
+            acao.concluir();
+        }
+    }
+} 

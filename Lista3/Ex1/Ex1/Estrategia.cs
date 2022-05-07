@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Ex1
 {
-    internal class Estrategia 
+    public interface Estrategia 
     {
-
+        public void iniciar();
+        public void concluir();
     }
 }

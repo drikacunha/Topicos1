@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace Ex1
 {
-    internal class AliançaVizinho
-    {
+    public class AliançaVizinho : Estrategia
+    { 
+        public void iniciar()
+        {
+            iniciarPeloNorte();
+            iniciarPeloSul();
+        }
+
+        public void concluir()
+        {
+            dividirBeneficios();
+            dividirReconstruçao();
+        }
     }
 }

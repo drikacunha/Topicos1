@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex1
 {
-     public class Nuclear
+     public class Nuclear : Inimigo
     {
-        Tipo_
     }
 }
