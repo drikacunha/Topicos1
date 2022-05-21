@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-	internal class QuickSort
+	internal class QuickSort : ShellSort
 	{
 		public void sort(double[] a)
 		{
