@@ -25,6 +25,6 @@ namespace Ex2
                         a[j + 1] = temp;
                     }
             }
-        }
+        }0
     }
 }
