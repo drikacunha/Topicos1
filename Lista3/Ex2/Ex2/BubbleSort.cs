@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    public class BubbleSort
+    public class BubbleSort : InsertionSort
     {
         public void sort(double[] a)
         {

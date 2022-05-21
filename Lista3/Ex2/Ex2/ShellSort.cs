@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    internal class ShellSort
+    public interface ShellSort
     {
-
+        void sort(double[] a);
     }
 }
