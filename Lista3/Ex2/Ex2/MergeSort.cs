@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Ex2
+﻿namespace Ex2
 {
-    public class MergeSort
+    public interface MergeSort
     {
-        public void sort();
+        public void Sort();
 
     }
 }

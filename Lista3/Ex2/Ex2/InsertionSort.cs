@@ -6,29 +6,24 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    public class InsertionSort : ShellSort
+    public class InsertionSort : Sort
     {
-        public void sort(double[] a)
+        public int[] SortArray(int[] a)
         {
-            insertionSort(a);
-        }
+            int i = 0, j = 0, atual = 0;
+            for (i = 1; i < a.Length; i++)
+            {
+                atual = a[i];
+                j = i;
+                while ((j > 0) && (a[j - 1] > atual))
+                {
+                    a[j] = a[j - 1];
+                    j = j - 1;
+                }
+            }
+            a[j] = atual;
 
-        public void insertionSort(double[] a)
-        {
-            int N = a.Length;
-            for (int i = 0; i < N; i++)
-                for (int j = i; j > 0; j--)
-                    if (a[j] < a[j - 1])
-                        exch(a, j, j - 1);
-                    else
-                        break;
-        }
-
-        private void exch(double[] a, int i, int j)
-        {
-            double swap = a[i];
-            a[i] = a[j];
-            a[j] = swap;
+            return a;
         }
     }
 }
