@@ -8,5 +8,16 @@ namespace Ex2
 {
     internal class ArrayAbstract
     {
+        public Sort azar;
+        public int[] a = new int[10000];
+
+        public ArrayAbstract()
+        {
+            for (int i = 9999, j = 0; i != 0; i--, j++)
+            {
+                a[j] = j;
+            }
+        }
+
     }
 }

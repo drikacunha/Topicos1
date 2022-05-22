@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    internal class ArrayShellSort : ArrayAbstract
+    internal class ArrayInsertionSort : ArrayAbstract
     {
-        public ArrayShellSort()
+        public ArrayInsertionSort()
         {
-            azar = new ShellSort();
+            azar = new InsertionSort();
         }
     }
 }

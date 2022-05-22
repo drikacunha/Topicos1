@@ -1,4 +1,6 @@
-﻿namespace Ex2
+﻿using System.Diagnostics;
+
+namespace Ex2
 {
     class Program
     {
