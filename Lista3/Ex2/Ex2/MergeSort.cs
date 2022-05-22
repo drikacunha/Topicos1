@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-	public class QuickSort : MergeSort
-	{
+    public class MergeSort
+    {
+        public void sort();
 
-		@Override
-	public void sort()
-		{
-			Console.WriteLine("Utilizando o Quick Sort");
-		}
-	}
+    }
 }
