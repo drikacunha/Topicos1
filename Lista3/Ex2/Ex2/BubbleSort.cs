@@ -6,25 +6,35 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    public class BubbleSort : InsertionSort
-    {
-        public void sort(double[] a)
-        {
-            bubbleSort(a, a.Length);
-        }
+	public class BubbleSort : Sort
+	{
+		public int[] SortArray(int[] a)
+		{
+			int tamanho = a.Length;
+			int comparacoes = 0;
+			int trocas;
 
-        public void bubbleSort(double[] a, int n)
-        {
-            for (int i = n - 1; i > 0; i--)
-            {
-                for (int j = 0; j < i; j++)
-                    if (a[j] > a[j + 1])
-                    {
-                        double temp = a[j];
-                        a[j] = a[j + 1];
-                        a[j + 1] = temp;
-                    }
-            }
-        }
-    }
+			for (int i = tamanho - 1; i >= 1; i--)
+			{
+				trocas = 0;
+				for (int j = 0; j < i; j++)
+				{
+					comparacoes++;
+					if (a[j] > a[j + 1])
+					{
+						int aux = a[j];
+						a[j] = a[j + 1];
+						a[j + 1] = aux;
+						trocas++;
+					}
+				}
+
+				if (trocas == 0)
+				{
+					return a;
+				}
+			}
+			return a;
+		}
+	}
 }
