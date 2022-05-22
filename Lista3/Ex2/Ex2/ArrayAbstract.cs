@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    internal class ArrayAbstract
+    public abstract class ArrayAbstract
     {
         public Sort azar;
         public int[] a = new int[10000];

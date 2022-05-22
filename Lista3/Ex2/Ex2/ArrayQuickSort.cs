@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    internal class ArrayQuickSort : ArrayAbstract
+    public class ArrayQuickSort : ArrayAbstract
     {
         public ArrayQuickSort()
         {

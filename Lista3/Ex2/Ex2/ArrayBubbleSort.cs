@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    internal class ArrayBubbleSort : ArrayAbstract
+    public class ArrayBubbleSort : ArrayAbstract
     {
         public ArrayBubbleSort()
         {

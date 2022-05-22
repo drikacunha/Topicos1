@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    internal class ArrayShellSort : ArrayAbstract
+    public class ArrayShellSort : ArrayAbstract
     {
         public ArrayShellSort()
         {
