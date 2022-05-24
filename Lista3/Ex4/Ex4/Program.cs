@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Ex4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            IContainer livros = new BooksCollection();
+            for (BookIterator it = livros.criarIterator(); !it.isDone(); it.next())
+            {
+                Console.WriteLine(it.currentItem().nome);
+            }
+        }
+    }
+}
