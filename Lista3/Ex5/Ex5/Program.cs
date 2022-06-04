@@ -4,12 +4,11 @@
     {
         static void Main(string[] args)
         {
-            IContainer fibonaccis = new FiboCollection();
-            for (FiboIterator it = fibonaccis.criarIterator(); !it.isDone(); it.next())
+            IContainer livros = new BooksCollection();
+            for (BookIterator it = livros.criarIterator(); !it.isDone(); it.next())
             {
-                Console.WriteLine(it.currentItem().fibo);
+                Console.WriteLine(it.currentItem().nome);
             }
-
         }
     }
 }

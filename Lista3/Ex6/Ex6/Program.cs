@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World !");
+﻿namespace Ex6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            IContainer fibonaccis = new FiboCollection();
+            for (FiboIterator it = fibonaccis.criarIterator(); !it.isDone(); it.next())
+            {
+                Console.WriteLine(it.currentItem().fibo);
+            }
+
+        }
+    }
+}

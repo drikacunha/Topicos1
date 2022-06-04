@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adrie\\Desktop\\Topicoss\\Lista1\\Ex1\\Ex1\\Ex1.csproj",
+      "projectUniqueName": "C:\\Users\\adrie\\Desktop\\Topicos1\\Lista1\\Ex1\\Ex1\\Ex1.csproj",
       "projectName": "Ex1",
-      "projectPath": "C:\\Users\\adrie\\Desktop\\Topicoss\\Lista1\\Ex1\\Ex1\\Ex1.csproj",
+      "projectPath": "C:\\Users\\adrie\\Desktop\\Topicos1\\Lista1\\Ex1\\Ex1\\Ex1.csproj",
       "packagesPath": "C:\\Users\\adrie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adrie\\Desktop\\Topicoss\\Lista1\\Ex1\\Ex1\\obj\\",
+      "outputPath": "C:\\Users\\adrie\\Desktop\\Topicos1\\Lista1\\Ex1\\Ex1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\adrie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

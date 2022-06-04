@@ -1,7 +1,13 @@
-﻿namespace Ex5
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ex5
 {
     public interface IContainer
     {
-        FiboIterator criarIterator();
+        public BookIterator criarIterator();
     }
 }

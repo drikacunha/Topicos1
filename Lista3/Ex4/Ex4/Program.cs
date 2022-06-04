@@ -4,11 +4,10 @@
     {
         static void Main(string[] args)
         {
-            IContainer livros = new BooksCollection();
-            for (BookIterator it = livros.criarIterator(); !it.isDone(); it.next())
-            {
-                Console.WriteLine(it.currentItem().nome);
-            }
+            //
+            Pessoa p = new Pessoa("kayky");
+
+            Console.WriteLine(p.nome);
         }
     }
 }
